@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "Joshua Araujo"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: Resume.qmd
+        text: Resume
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/joshua-araujo-857561440/
+      - icon: envelope
+        href: mailto:ja074@uark.edu
+        
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+editor: visual
